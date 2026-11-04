@@ -7,7 +7,7 @@ VERSION_STRING = 1.0
 ENTRY_POINT = UefiMain
 
 [Sources]
-BoopLoopApp.c
+BootLoopApp.c
 [Packages]
 MdePkg/MdePkg.dec
 MdeModulePkg/MdeModulePkg.dec
