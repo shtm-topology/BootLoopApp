@@ -1,0 +1,16 @@
+[Defines]
+INF_VERSION = 0X00010006
+BASE_NAME = BootLoopApp
+FILE_GUID = 9abc1234-5678-abcd-ef99-123456789abc
+MODULE_TYPE = UEFI_APPLICATION
+VERSION_STRING = 1.0
+ENTRY_POINT = UefiMain
+
+[Sources]
+BoopLoopApp.c
+[Packages]
+MdePkg/MdePkg.dec
+MdeModulePkg/MdeModulePkg.dec
+[LibraryClasses]
+UefiApplicationEntryPoint
+UefiRuntimeServicesTableLib
