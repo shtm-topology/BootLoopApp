@@ -8,7 +8,7 @@ UefiMain(
 	IN EFI_SYSTEM_TABLE *SystemTable
 	)
 {
-	gBS->Stall (3 * 1000 * 1000)
+	gBS->Stall (3 * 1000 * 1000);
 	gRT->ResetSystem (EfiResetCold, EFI_SUCCESS, 0, NULL);
 
 	return EFI_SUCCESS;
